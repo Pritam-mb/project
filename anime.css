@@ -1,0 +1,229 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    ;
+}
+body{
+    /* background-color: rgb(5, 5, 37); */
+}
+html, body{
+    /* background-color: rgb(5, 5, 39); */
+    overflow-x: hidden;
+    }
+
+.cover img {
+    height: 100%;
+    width: 650px;
+}
+
+#cov img {
+    /* position: absolute; 
+    top: 0px;
+    right: 0px;  */
+    /* object-fit: cover; */
+    height: 100%;
+    width: 650px;
+    opacity: 0.2;
+}
+
+.logo img {
+    /* display: inline-block; */
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    /* left: 5px; */
+    height: 130px;
+    width: 150px;
+
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+
+.nav {
+
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    display: flex;
+
+}
+
+.nav li {
+    list-style: none;
+    padding: 0px 22px;
+
+}
+
+.nav li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    /* padding:2px 0px; */
+    letter-spacing: 4px;
+    transition: all 0.5s ease-in-out;
+    color: black;
+    width: 15px;
+    border-bottom: 2px solid transparent;
+    |
+}
+
+.nav li a:hover {
+    border-bottom: 2px solid blue;
+    /* border-bottom: 1px solid blue; */
+    color: blue;
+    /* border-radius: 10px; */
+
+}
+
+.nav .nav-link li a::before {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 3.5px;
+    left: 0;
+    bottom: -5px;
+    background: pink;
+    border-radius: 100px;
+    transition: .5s ease-in-out;
+    /* color: blue; */
+}
+
+.nav .nav-link li a:hover::before {
+    width: 100%;
+    color: blue;
+}
+
+.sec {
+    letter-spacing: 7px;
+    color: black;
+    position: absolute;
+    top: 100px;
+    right: 370px;
+    font-weight: bold;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.third {
+    color: black;
+    position: absolute;
+    font-size: 35px;
+    top: 130px;
+    right: 260px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.fourth {
+    color: blue;
+    position: absolute;
+    font-size: 35px;
+    top: 170px;
+    right: 280px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 3px;
+}
+
+.fifth {
+    display: inline-block;
+    width: 450px;
+    font-size: 15px;
+    position: absolute;
+    /* font-size: 35px; */
+    top: 240px;
+    right: 71px;
+    text-align: left;
+}
+
+.sixth {
+    position: absolute;
+    /* font-size: 35px; */
+    top: 330px;
+    right: 445px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.btn{
+    position: absolute;
+    /* font-size: 35px; */
+    top: 400px;
+    right: 445px;
+    padding: 5px;
+    background-color:blue ;
+    color: white;
+    border: 2px solid black;
+    border-radius: 3px;
+    /* margin: 5px; */
+}
+.btn-two{
+    position: absolute;
+    /* font-size: 35px; */
+    top: 395px;
+    right: 360px;
+    padding: 5px;
+    margin: 5px;
+    /* position: absolute; */
+    /* right:400px ; */
+}
+.btn:hover{
+    background-color: darkblue;
+}
+
+
+/* .cards{
+    position: absolute;
+    overflow-x: auto;
+    overflow-y: hidden;
+    width: 53%;
+    height: 250px;
+    gap: 10px;
+    /* top: 450px; */
+    /* right: 0px; */
+    /* display: flex; */
+    /* bottom: 20px; */
+    /* margin: 50px; */
+/* }
+.card::-webkit-scrollbar{
+    display: none;
+    }
+/*.cards .card {
+    margin: 150px;
+    width: 150px;
+    height: 200px;
+    border-radius: 10px;
+}*/
+.cards .card .img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    filter: saturate(0);
+    transition: .5s;
+    background: transparent;
+}
+.cards .card .img img:hover{
+    filter: saturate(1);
+} 
+ .cards{
+    position: absolute;
+    right: 0px;
+    top: 500px;
+    display: flex;
+    max-height: 230px;
+    max-width: 530px;
+    gap: 10px;
+    overflow-x: auto;
+    border-radius: 10px;
+    /* overflow-y: hidden; */
+ }
+ .cards::-webkit-scrollbar{
+    display: none;
+ }
+
+ .card{
+    min-width: 110px;
+ }

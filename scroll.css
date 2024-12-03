@@ -1,0 +1,20 @@
+.fir{
+    overflow-x: auto;
+    display: flex;
+}
+.contai{
+    display: block;
+    float: left;
+}
+
+.nav-wrap{
+    display: flex;
+    flex: 1 0 100%;
+   scroll-snap-align: start;
+
+}
+.wrap{
+    position: relative;
+    /* display: flex; */
+    /* min-width: 350px; */
+}

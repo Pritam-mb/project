@@ -1,0 +1,197 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    /* background-color:rgb(5, 7, 48); */
+}
+.navbar{
+    height: 60px;
+    background-color: rgba(0, 0, 0, 0.848);
+    display: flex;
+    justify-content: space-between;
+
+}
+.logo img{
+    /* position: absolute;
+    left: 0px;
+    top: 0px; */
+    margin-left: 15px;
+    display: inline-block;
+    /* display: in; */
+    height: 50px;
+    width: 150px;
+}
+.nav {
+    display: flex;
+    /* align-items: ; */
+}
+.nav li{
+   /* height: 10px; */
+    list-style: none;
+    /* margin-top: px; */
+    padding: 15px 25px;
+    margin: 6px 6px;
+    /* border: 1px solid rgba(0, 0, 0, 0.848);; */
+    /* text-align: sp; */
+    transform: all 0.2s ease;
+    
+}
+.nav li a{
+    margin-top: 4px;
+    font-size: 15px;
+    /* align-items: s; */
+    color: white;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    /* margin: space-between; */
+    text-decoration: none;
+    
+    transition: all 0.2s ease-in-out;
+}
+.nav li:hover{
+    color: white;
+   /* border: 1px solid white; */
+    background-color: red;
+border-radius: 3px;}
+.search{
+    margin-top: 0px;
+    margin-right: 10px;
+    padding: 13px;
+    margin: 5px;
+}
+.sear{
+    border-radius: 8px;
+    height: 25px;
+
+}
+input::placeholder{
+    color: black;
+    padding: 7px;
+}
+.firse{
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+}
+
+.home .box{
+    min-height: 100vh;
+    /* min-width: 250px; */
+    display: flex;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+    justify-content: flex-end;
+    padding: 2rem 9%;
+}
+
+
+.wrapper{
+   
+}
+  .wrap{
+    display: flex;
+    margin-top: 0px;
+}
+
+.container{
+    justify-items: center;
+    /* justify-content: center;
+    align-items: center; */
+ }
+.nav-wrap{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto ;
+    scroll-snap-type:x mandatory;
+    scroll-behavior: smooth;
+    /* border-radius: 7px; */
+ }  
+ .nav-wrap img{
+    flex: 1 0 100%;
+   scroll-snap-align: start;
+}
+.wrap{
+    position: relative;
+    max-width: 100%;
+    max-height: 80%;
+}
+.nav-wrap::-webkit-scrollbar{
+    display: none;
+} 
+.btn{
+    font-size: 17px;
+    justify-content: center;
+    margin-top: 18px;
+    border-radius: 5px;
+    height: 40px;
+    width: 80px;
+    margin: 5px;
+    color: white;
+    background-color: red;
+    border: 1px solid black;
+}
+.btn:hover{
+    background-color:  rgba(148, 85, 12, 0.959);
+    color: white;
+}
+
+.sign{
+    /* padding: 15px; */
+    /* width: 40px; */
+   
+}
+.search:hover{
+   border: 1px solid white;
+    /* background-color: rgba(148, 85, 12, 0.959); */
+}
+.right{
+    margin-top: 8px;
+    display: flex;
+
+}
+ /* .nav-wrap  img{
+    height: 120px;
+    width: 100px; 
+    aspect-ratio: 16/9;
+     object-fit: contain;
+}  */
+
+.arr{
+   align-items: center;
+   justify-content: center;
+  
+}
+.dot{
+    display: flex;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.b{
+    bottom: 500px;
+    padding: 5px;
+    margin: 5px;
+    height: 10px;
+    width: 10px;
+    background-color: transparent;
+    border-radius: 50px;
+    /* animation-name: pritam;
+     */
+     transform: translateZ(0) ;
+     /* transition-duration: 0.2s; */
+     /* transition-timing-function: ease-in-out; */
+     transition: width  0.2s ease;
+     
+
+}
+
+
+.dot .b:hover{
+    width: 30px;
+    background-color: black;
+}
+.dot .b:visited{
+    width: 30px;
+    background-color: black;
+}

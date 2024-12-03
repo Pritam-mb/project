@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" media="screen and (max-width:777px)" href="pos.css">
+    <title>Document</title>
+    <style>
+        .container{
+            display: grid;
+            /* grid-template-columns: 100px auto 100px; */
+            /* grid-template-columns: 2fr 4fr 2fr; */
+            grid-template-columns: repeat(3,auto);
+            grid-gap: 2rem;
+        }
+        .item{
+          
+            background-color: red;
+            padding: 15px;
+            margin: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">this is box1</div>
+        <div class="item">this is box2</div>
+        <div class="item">this is box3</div>
+        <div class="item">this is box4</div>
+        <div class="item">this is box5</div>
+        <div class="item">this is box6</div>
+        <div class="item">this is box7</div>
+        <div class="item">this is box8</div>
+        <div class="item">this is box9</div>
+        <div class="item">this is box10</div>
+
+    </div>
+</body>
+</html>
