@@ -1,0 +1,27 @@
+
+
+.nav-wrap{
+    /* position: absolute; */
+    display: flex;
+    max-width: 100%;
+    overflow-x: auto;
+    border: 2px solid black;
+    object-fit: cover;
+    scroll-snap-align: start;
+   scroll-snap-type:x mandatory;
+   scroll-behavior: smooth;
+   aspect-ratio: 16/9;
+}
+.nav-wrap .scoll{
+    flex: 1 0 100%;
+   scroll-snap-align: start;
+}
+.scoll{
+    border: 2px solid red;
+    /* height: 100px;
+    width: 100px; */
+}
+#first_box{
+    background-image: url('first.jpg');
+    background-size: cover;
+}
